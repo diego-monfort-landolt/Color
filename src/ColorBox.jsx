@@ -1,5 +1,5 @@
 import React from 'react';
-import './ColorBox.css';
+import './colorBox.css';
 
 const ColorBox = ({ color }) => {
   const copyToClipboard = () => {
@@ -8,10 +8,9 @@ const ColorBox = ({ color }) => {
   };
 
   return (
-    <div className="color-box" style={{ backgroundColor: color }} onClick={copyToClipboard}>
+    <div className="color-box" onClick={copyToClipboard}>
       <p>{color}</p>
     </div>
   );
 };
-
 export default ColorBox;
