@@ -1,0 +1,7 @@
+.color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  text-shadow: 1px 1px 8px red;
+}
