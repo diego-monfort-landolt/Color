@@ -8,7 +8,7 @@ const ColorBox = ({ color }) => {
   };
 
   return (
-    <div className="color-box" onClick={copyToClipboard}>
+    <div className="color-box" style={{ background: color }} onClick={copyToClipboard}>
       <p>{color}</p>
     </div>
   );
