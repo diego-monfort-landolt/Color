@@ -25,3 +25,79 @@
 .read-the-docs {
   color: #888;
 }
+@keyframes wave {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+/*Here start h1 animation*/
+
+
+@keyframes slowWave {
+  0%, 100% {
+    transform: scale(1);
+    color: #3357FF; /* Startfarbe */
+  }
+  50% {
+    transform: scale(1.5);
+    color: #FF5733 /* Farbe in der Mitte der Animation */
+  }
+}
+
+.wave {
+  display: inline-block;
+  font-size: 2rem;
+  animation: slowWave 5s infinite; /* Langsamere Animation */
+}
+
+.wave span {
+  display: inline-block;
+  animation: slowWave 5s infinite; /* Langsamere Animation */
+}
+
+.wave span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.wave span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.wave span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.wave span:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+.wave span:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+.wave span:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
+.wave span:nth-child(7) {
+  animation-delay: 1.8s;
+}
+
+.wave span:nth-child(8) {
+  animation-delay: 2.1s;
+}
+
+.wave span:nth-child(9) {
+  animation-delay: 2.4s;
+}
+
+.wave span:nth-child(10) {
+  animation-delay: 2.7s;
+}
+
+.wave span:nth-child(11) {
+  animation-delay: 3s;
+}
